@@ -1,0 +1,22 @@
+.play:hover{
+    cursor: pointer;
+}
+.markdown{
+    height: 50vh;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    
+    width: 68em;
+    padding-left: 2rem;
+}
+.text{
+    background-color: rgb(182, 183, 182);
+    color: black;
+    width: fit-content;
+    font-weight:300;
+    padding: 1rem;
+    margin-left: 4rem ;
+}
+.cmd1{
+    border-left: 2rem solid green;
+}

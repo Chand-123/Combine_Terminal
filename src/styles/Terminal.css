@@ -1,0 +1,14 @@
+.terminal{
+    display: flex-end;
+    width: 100%;
+    background-color:black;
+    color:white;
+    font-family:'Arial Narrow';
+    font-size:14px;
+    height:180px;
+    overflow-x:auto;
+    overflow-y:auto;
+    position: fixed;
+    bottom: 0;
+    
+}
