@@ -49,17 +49,18 @@ Steps for installation of backend server:
 10. npm install nodemon --save-dev
 11. npm install mongodb
 12. npm install mongoose
-13. After installation, using an editor check whether package.json contains the following code part (Add the "dev" part, if not available).
+13. npm init -y
+14. After installation, using an editor check whether package.json contains the following code part (Add the "start" and "dev" part, if not available).
  "scripts": {
     "start": "node server.ts",
     "dev": "nodemon server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
-14. run the server side using the command (npm run dev) and from the client side(npm start)
+15. run the server side using the command (npm run dev) and from the client side(npm start)
 
 The above commands are also available as script file i.e., steps.sh (in the folder Shreyasbackend).
 
-15. This project has an extension to database connectivity. The commands along with status are being stored in mongodb (This project uses Mongodb community edition{version 5.0.14} with default port(27017) and a database with name "tesdb" and collection name as "datas". Aditionally, one can also install MongoDB compass as a frontend tool for database operations). At present, the connectivity to database is removed in server.ts file. Soon, it would be added along with the pie chart representation for data analytics.
+16. This project has an extension to database connectivity. The commands along with status are being stored in mongodb (This project uses Mongodb community edition{version 5.0.14} with default port(27017) and a database with name "tesdb" and collection name as "datas". Aditionally, one can also install MongoDB compass as a frontend tool for database operations). At present, the connectivity to database is removed in server.ts file. Soon, it would be added along with the pie chart representation for data analytics.
 
 # Instructions to get started with Frontend:
 
