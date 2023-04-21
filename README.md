@@ -37,7 +37,7 @@ The two files used for communication are Terminal.tsx (Frontend part, available 
 
 Steps for installation of backend server:
 
-1. Create a separate directory for backend(Shreyasbackend) and run the following commands to install nodejs dependencies
+1. Create a separate directory for backend(Say ServerBkend) and run the following commands to install nodejs dependencies
 2. sudo apt update && upgrade
 3. sudo apt install nodejs (Tested with Nodejs version v18.7.0)
 4. sudo apt install npm (Tested with npm version 9.4.2)
@@ -56,14 +56,15 @@ Steps for installation of backend server:
     "dev": "nodemon server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
-15. run the server side using the command (npm run dev) and from the client side(npm start)
+15. From the Linux terminal, cd(Change directory) to the new directory created(say ServerBkend). Copy only server.ts from Shreyasbackend to the new directory created(ServerBkend).
+16. run the server side using the command (npm run dev) and from the client side(npm start)
 
 The above commands are also available as script file i.e., steps.sh (in the folder Shreyasbackend).
 
 ## Special Instructions: In case a particular npm installation does not save to local directory, then use the following command:
 npm i --save-dev @types/express(I'm using to show for express. It can be used for other modules also)
 
-16. This project has an extension to database connectivity. The commands along with status are being stored in mongodb (This project uses Mongodb community edition{version 5.0.14} with default port(27017) and a database with name "tesdb" and collection name as "datas". Aditionally, one can also install MongoDB compass as a frontend tool for database operations). At present, the connectivity to database is removed in server.ts file. Soon, it would be added along with the pie chart representation for data analytics.
+17. This project has an extension to database connectivity. The commands along with status are being stored in mongodb (This project uses Mongodb community edition{version 5.0.14} with default port(27017) and a database with name "tesdb" and collection name as "datas". Aditionally, one can also install MongoDB compass as a frontend tool for database operations). At present, the connectivity to database is removed in server.ts file. Soon, it would be added along with the pie chart representation for data analytics.
 
 # Instructions to get started with Frontend:
 
