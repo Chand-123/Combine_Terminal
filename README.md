@@ -50,7 +50,7 @@ Steps for installation of backend server:
 11. npm install mongodb
 12. npm install mongoose
 13. npm init -y
-14. After installation, using an editor check whether package.json contains the following code part (Add the "start" and "dev" part, if not available).
+14. After installation, using an editor, check whether package.json contains the following code part (Add the "start" and "dev" part, if not available).
  "scripts": {
     "start": "node server.ts",
     "dev": "nodemon server.ts",
