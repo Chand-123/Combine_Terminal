@@ -37,7 +37,7 @@ The two files used for communication are Terminal.tsx (Frontend part, available 
 
 Steps for installation of backend server:
 
-1. Create a separate directory for backend(Say ServerBkend) and run the following commands to install nodejs dependencies
+1. Create a separate directory for backend(Say ServerBkend).cd(change directory) to ServerBkend and run the following commands to install nodejs dependencies
 2. sudo apt update && upgrade
 3. sudo apt install nodejs (Tested with Nodejs version v18.7.0)
 4. sudo apt install npm (Tested with npm version 9.4.2)
