@@ -60,7 +60,7 @@ Steps for installation of backend server:
 
 The above commands are also available as script file i.e., steps.sh (in the folder Shreyasbackend).
 
-##Special Instructions: In case a particular npm installation does not save to local directory, then use the following command:
+## Special Instructions: In case a particular npm installation does not save to local directory, then use the following command:
 npm i --save-dev @types/express(I'm using to show for express. It can be used for other modules also)
 
 16. This project has an extension to database connectivity. The commands along with status are being stored in mongodb (This project uses Mongodb community edition{version 5.0.14} with default port(27017) and a database with name "tesdb" and collection name as "datas". Aditionally, one can also install MongoDB compass as a frontend tool for database operations). At present, the connectivity to database is removed in server.ts file. Soon, it would be added along with the pie chart representation for data analytics.
