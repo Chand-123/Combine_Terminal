@@ -18,13 +18,14 @@ Steps for installation of backend server:
 10. npm install nodemon --save-dev
 11. npm install mongodb
 12. npm install mongoose
-13. After installation, using an editor check whether package.json contains the following code part (Add the "dev" part, if not available).
+13. npm init -y
+14. After installation, using an editor check whether package.json contains the following code part (Add the "start" and "dev" part, if not available).
  "scripts": {
     "start": "node server.ts",
     "dev": "nodemon server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
-14. run the server side using the command (npm run dev) and from the client side(npm start)
+15. run the server side using the command (npm run dev) and from the client side(npm start)
 
 The above commands are also available as script file i.e., steps.sh (in the folder Shreyasbackend).
 
